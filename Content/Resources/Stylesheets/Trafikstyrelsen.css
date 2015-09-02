@@ -97,7 +97,17 @@ span.sup
 		mc-heading-level: 0;
 	}
 
-
+	p
+	{
+		margin-left: 20mm;
+		margin-bottom: 0pt;
+		margin-top: 5pt;
+		text-align: justify;
+		mc-hyphenate: always;
+		mc-hyphenate-shortest-word: 5;
+		mc-hyphenate-shortest-prefix: 3;
+		mc-hyphenate-shortest-suffix: 2;
+	}
 
 	p.Before
 	{
