@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet sourceDocument="C:\temp\Vejdirektoratet\samlet.book">
+    <ConditionTag Name="Comment" BackgroundColor="#ff0000" />
+    <ConditionTag Name="Detail" BackgroundColor="#ff0000" />
+    <ConditionTag Name="Vejledning" BackgroundColor="#800080" />
+    <ConditionTag BackgroundColor="#ffa500" Name="Rettelse" Comment="" OriginalName="Rettelse" />
+</CatapultConditionTagSet>

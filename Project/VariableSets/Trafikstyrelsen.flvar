@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="Titel">[Titel]</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime">yyyy</Variable>
+  <Variable
+    Name="Trafikstyrelsen"
+    Comment="">Trafikstyrelsen</Variable>
+  <Variable
+    Name="FixedYear"
+    Comment="">[XXXX]</Variable>
+  <Variable
+    Name="Udgivelse"
+    Comment="">November 2015</Variable>
+</CatapultVariableSet>

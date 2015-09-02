@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  InjectEmptyPages="true"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/Trafikstyrelsen.fltoc"
+  ConditionTagExpression="include[Trafikstyrelsen.Vejledning] exclude[Trafikstyrelsen.Comment or Trafikstyrelsen.Detail] "
+  InjectBookHeadings="false"
+  MasterPageLayout="/Content/Resources/PageLayouts/Vejledning.flpgl"
+  OutputFile="Vejledning om syn af køretøjer"
+  UseLocalBuildSettings="true"
+  UseEmptyAltText="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="expand" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    InitialMagnification="Fit"
+    PageLayout="TwoPageRight" />
+  <Variables>
+    <Variable
+      Name="Trafikstyrelsen/Titel">Vejledning om syn af køretøjer</Variable>
+    <Variable
+      Name="Trafikstyrelsen/FixedYear">2017</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Vejledning om syn af køretøjer"
+    Author="Trafikstyrelsen" />
+</CatapultTarget>

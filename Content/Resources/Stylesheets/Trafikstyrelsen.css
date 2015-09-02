@@ -1,0 +1,602 @@
+﻿/*<meta />*/
+
+body
+{
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 12pt;
+}
+
+.sup
+{
+	font-size: 75%;
+}
+
+.sub
+{
+	font-size: 75%;
+}
+
+span.sup
+{
+	vertical-align: super;
+}
+
+
+@media print
+{
+	
+	h1
+	{
+		font-weight: bold;
+		font-size: 10pt;
+		line-height: 12pt;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		page-break-before: right;
+	}
+
+	h2
+	{
+		font-weight: bold;
+		font-size: 10.0pt;
+		line-height: 12pt;
+		margin-top: 13pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+	}
+
+	h3
+	{
+		font-weight: bold;
+		font-size: 10.0pt;
+		margin-top: 13pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+	}
+
+	h4
+	{
+		font-weight: bold;
+		font-size: 10.0pt;
+		margin-top: 13pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+	}
+
+	h5
+	{
+		font-weight: bold;
+		font-size: 10.0pt;
+		margin-top: 13pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		mc-heading-level: 0;
+	}
+
+	h6
+	{
+		font-weight: bold;
+		font-size: 10.0pt;
+		margin-top: 13pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		mc-heading-level: 0;
+	}
+
+
+
+	p.Before
+	{
+		mc-auto-number-format: 'Før ';
+		page-break-after: avoid;
+		text-decoration: underline;
+		margin-left: 0mm;
+	}
+
+	p.pv
+	{
+		color: 0000FF;
+	}
+
+	p.space_before
+	{
+		margin-top: 12pt;
+		margin-bottom: 0pt;
+		margin-left: 70px;
+	}
+
+	p.space_before_underline
+	{
+		font-weight: bold;
+		margin-top: 12pt;
+		margin-bottom: 0pt;
+		margin-left: 20mm;
+		page-break-after: avoid;
+		text-decoration: underline;
+	}
+
+	p.rubrik
+	{
+		font-weight: bold;
+		margin-top: 12pt;
+		margin-bottom: 0pt;
+		page-break-after: avoid;
+		mc-hyphenate: never;
+		text-align: left;
+	}
+
+	p.rubrik_table
+	{
+		font-weight: bold;
+		margin-top: 12pt;
+		margin-bottom: 0pt;
+		margin-left: 0pt;
+	}
+
+	p.rubrik_page_break
+	{
+		font-weight: bold;
+		margin-top: 12pt;
+		margin-bottom: 0pt;
+		page-break-before: always;
+	}
+
+	p.rubrik_center
+	{
+		font-weight: bold;
+		text-align: center;
+		margin-top: 12pt;
+		margin-bottom: 0pt;
+		mc-hyphenate: never;
+	}
+
+	p.table
+	{
+		margin-top: 0pt;
+		margin-bottom: 5pt;
+		margin-left: 0pt;
+		text-align: left;
+	}
+
+	p.table_center
+	{
+		margin-top: 0pt;
+		margin-bottom: 5pt;
+		margin-left: 0pt;
+		text-align: center;
+	}
+
+	p.dash_table
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		margin-left: 6mm;
+		mc-auto-number-format: '– ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+	}
+
+	p.tal_start
+	{
+		mc-auto-number-format: 'T:({n=1}) ';
+		mc-auto-number-position: outside-head;
+		mc-next-tag: p;
+		mc-next-class: tal;
+		margin-left: 25mm;
+		mc-auto-number-offset: 6mm;
+		padding-left: 1mm;
+	}
+
+	p.tal
+	{
+		mc-auto-number-format: 'T:({n+}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+		padding-left: 1mm;
+	}
+
+	p.lov_tal_start
+	{
+		mc-auto-number-format: 'T:{n=1}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+		mc-next-tag: p;
+		mc-next-class: lov_tal;
+	}
+
+	p.lov_tal
+	{
+		mc-auto-number-format: 'T:{n+}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+	}
+
+	p.dash
+	{
+		margin-left: 26mm;
+		mc-auto-number-format: '– ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+	}
+
+	p.center_italic
+	{
+		font-style: italic;
+		text-align: center;
+		margin-top: 12pt;
+		margin-bottom: 10pt;
+	}
+
+	p.alfa_start
+	{
+		margin-left: 26mm;
+		mc-auto-number-format: 'A:{a=1}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		mc-next-tag: p;
+		mc-next-class: alfa;
+	}
+
+	p.alfa
+	{
+		mc-auto-number-format: 'A:{a+}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-top: 0;
+	}
+
+	p.alfa_start_table
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		margin-left: 6mm;
+		mc-auto-number-format: 'A:{a=1}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		mc-next-tag: p;
+		mc-next-class: alfa_table;
+	}
+
+	p.alfa_table
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		margin-left: 6mm;
+		mc-auto-number-format: 'A:{a+}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+	}
+
+	p.tal_uden_parentes_start
+	{
+		mc-auto-number-format: 'S:{n=1} ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 26mm;
+		mc-next-tag: p;
+		mc-next-class: tal_uden_parentes;
+	}
+
+	p.tal_uden_parentes
+	{
+		mc-auto-number-format: 'S:{n+} ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 26mm;
+	}
+
+	p.tal_punktum_start
+	{
+		mc-auto-number-format: 'S:{n=1}. ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 26mm;
+		mc-next-tag: p;
+		mc-next-class: tal_punktum;
+	}
+
+	p.tal_punktum
+	{
+		mc-auto-number-format: 'S:{n+}. ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 26mm;
+	}
+
+	p.tal_level1
+	{
+		mc-auto-number-format: 'S:{n}.{n+} ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 26mm;
+	}
+
+	p.bullet_streg
+	{
+		mc-auto-number-format: '- ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+	}
+
+	p.bullet
+	{
+		mc-auto-number-format: '• ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+	}
+
+	p.bullet_streg_table
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		mc-auto-number-format: '- ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 6mm;
+	}
+
+	p.bullet_table
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		mc-auto-number-format: '• ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 6mm;
+	}
+
+	p.numbers_1
+	{
+		margin-left: 38mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 18mm;
+	}
+
+	p.numbers_0
+	{
+		margin-left: 18mm;
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 18mm;
+	}
+
+	p.sb
+	{
+		mc-auto-number-format: 'Sb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.Rb
+	{
+		mc-auto-number-format: 'Rb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.tb
+	{
+		mc-auto-number-format: 'Tb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.bb
+	{
+		mc-auto-number-format: 'Bb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.kb
+	{
+		mc-auto-number-format: 'Kb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.jm
+	{
+		mc-auto-number-format: 'JM sb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.stb
+	{
+		mc-auto-number-format: 'STb.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 20mm;
+	}
+
+	p.figtekst
+	{
+		mc-auto-number-format: 'F: Fig. {n+} ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 20mm;
+		margin-left: 40mm;
+		page-break-before: avoid;
+		margin-bottom: 10pt;
+	}
+
+	p.romersk_start
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		mc-auto-number-format: 'A:{r=1}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+		mc-next-tag: p;
+		mc-next-class: romersk;
+	}
+
+	p.romersk
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		mc-auto-number-format: 'A:{r+}) ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+	}
+
+	p.romersk_startR
+	{
+		font-weight: bold;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		mc-auto-number-format: 'A:{R=1}. ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+		mc-next-tag: p;
+		mc-next-class: romerskR;
+	}
+
+	p.romerskR
+	{
+		font-weight: bold;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		mc-auto-number-format: 'A:{R+}. ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 6mm;
+		margin-left: 25mm;
+	}
+
+	div
+	{
+		margin-left: 0mm;
+		margin-top: 5pt;
+		margin-bottom: 0;
+	}
+
+	div.level0
+	{
+		margin-left: 0mm;
+	}
+
+	div.level1
+	{
+		margin-left: 6mm;
+	}
+
+	div.level2
+	{
+		margin-left: 12mm;
+	}
+
+	div.level3
+	{
+		margin-left: 18mm;
+	}
+
+	div.level4
+	{
+		margin-left: 24mm;
+	}
+
+	div.level5
+	{
+		margin-left: 30mm;
+	}
+
+	div.level6
+	{
+		margin-left: 36mm;
+	}
+
+	div.level0V,
+	div.level1V,
+	div.level2V,
+	div.level3V,
+	div.level4V,
+	div.level5V,
+	div.level6V
+	{
+		font-style: italic;
+		color: 0000FF;
+	}
+
+	div.level0V
+	{
+		margin-left: 0mm;
+	}
+
+	div.level1V
+	{
+		margin-left: 6mm;
+	}
+
+	div.level2V
+	{
+		margin-left: 12mm;
+	}
+
+	div.level3V
+	{
+		margin-left: 18mm;
+	}
+
+	div.level4V
+	{
+		margin-left: 24mm;
+	}
+
+	div.level5V
+	{
+		margin-left: 30mm;
+	}
+
+	div.level6V
+	{
+		margin-left: 36mm;
+	}
+
+	ol,
+	ul
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+	}
+
+
+
+
+	
+}
+
+
+
+span.Nyt
+{
+	background-color: #c0c0c0;
+}
+
+

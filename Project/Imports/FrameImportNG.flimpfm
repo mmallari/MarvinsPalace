@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FrameMakerImport
+  GenerateImages="True"
+  PreserveImageSize="True"
+  CreateTableStyleForTables="True"
+  PreserveSourceStyles="False"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="True"
+  AddContinuedLinks="False"
+  AddContinuedFromLinks="False"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="False"
+  UseMinCharLimit="True"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  LastCollectTime="2015-02-15T19:14:09.1566825+01:00"
+  LastImport="2015-02-15T19:14:47.3178651+01:00"
+  Stylesheet="../../Content/Resources/Stylesheets/Trafikstyrelsen.css">
+  <Files>
+    <Url
+      Source="../../../Frame filer/Backup before Flare import/Final for Flare/kap18.fm"
+      AbsoluteSource="file:///C:/Data/Dropbox/Kunder/trafikstyrelsen/Frame filer/Backup before Flare import/Final for Flare/kap18.fm" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/FrameImportNG/DASUgodk.png"
+      TimeStamp="22-12-2014 09:49:22" />
+    <Url
+      Source="../../Content/FrameImportNG/kap18.htm"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/LeftRightPageLayout.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_First page left.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_First page right.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_2 sp left.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_2 sp right.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_Forord.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_blank.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_first page left 2 sp.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_first page right 2 sp.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_first page right 3 sp.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_first page left 3 sp.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_detail left.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../../Content/Resources/PageLayouts/kap18/OtherPageLayout_detail right.flpgl"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../VariableSets/FrameImportNG.flvar"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../ConditionTagSets/FrameImportNG.flcts"
+      TimeStamp="15-02-2015 19:14:10" />
+    <Url
+      Source="../TOCs/FrameImportNG3.fltoc"
+      TimeStamp="15-02-2015 19:14:10" />
+  </GeneratedFiles>
+  <ImportStyles>
+    <Styles>
+      <Style
+        Name="Paragraph">
+        <Classes>
+          <StyleClass
+            Name="do0nrTOC" />
+          <StyleClass
+            Name="do0TOC" />
+          <StyleClass
+            Name="o0TOC" />
+          <StyleClass
+            Name="1" />
+          <StyleClass
+            Name="Body" />
+          <StyleClass
+            Name="12" />
+          <StyleClass
+            Name="ActiveTOC_xml" />
+          <StyleClass
+            Name="ActiveTOC" />
+          <StyleClass
+            Name="volume" />
+          <StyleClass
+            Name="chapnummer00 brud" />
+          <StyleClass
+            Name="top1indhold" />
+          <StyleClass
+            Name="k1" />
+          <StyleClass
+            Name="o1" />
+          <StyleClass
+            Name="detail" />
+          <StyleClass
+            Name="c" />
+          <StyleClass
+            Name="k15" />
+          <StyleClass
+            Name="top1" />
+          <StyleClass
+            Name="top2" />
+          <StyleClass
+            Name="lokalindhold hoved" />
+          <StyleClass
+            Name="lokalindhold" />
+          <StyleClass
+            Name="top1 minus toc" />
+          <StyleClass
+            Name="do0nr" />
+          <StyleClass
+            Name="do0" />
+          <StyleClass
+            Name="o0" />
+          <StyleClass
+            Name="12start" />
+          <StyleClass
+            Name="23" />
+          <StyleClass
+            Name="12nummer" />
+          <StyleClass
+            Name="k2" />
+          <StyleClass
+            Name="2" />
+          <StyleClass
+            Name="k12" />
+          <StyleClass
+            Name="k5" />
+          <StyleClass
+            Name="k23" />
+          <StyleClass
+            Name="k26" />
+          <StyleClass
+            Name="k3" />
+          <StyleClass
+            Name="k6" />
+          <StyleClass
+            Name="k67" />
+          <StyleClass
+            Name="anker" />
+          <StyleClass
+            Name="3" />
+          <StyleClass
+            Name="34" />
+          <StyleClass
+            Name="k34" />
+          <StyleClass
+            Name="k25" />
+          <StyleClass
+            Name="k37" />
+          <StyleClass
+            Name="k45" />
+          <StyleClass
+            Name="k4" />
+          <StyleClass
+            Name="4" />
+          <StyleClass
+            Name="k24" />
+          <StyleClass
+            Name="ko1" />
+          <StyleClass
+            Name="k56" />
+          <StyleClass
+            Name="k78" />
+          <StyleClass
+            Name="k7" />
+          <StyleClass
+            Name="12talbegynd" />
+          <StyleClass
+            Name="Footnote" />
+          <StyleClass
+            Name="k48" />
+          <StyleClass
+            Name="chapnummer00 brud fri" />
+          <StyleClass
+            Name="ko0" />
+          <StyleClass
+            Name="01" />
+          <StyleClass
+            Name="kfigtekst" />
+          <StyleClass
+            Name="figtekst" />
+          <StyleClass
+            Name="ankerbred" />
+          <StyleClass
+            Name="k12start" />
+          <StyleClass
+            Name="k12nummer" />
+          <StyleClass
+            Name="chapnummer10brud" />
+          <StyleClass
+            Name="o0 uden tal" />
+          <StyleClass
+            Name="o2" />
+          <StyleClass
+            Name="o0 minu toc" />
+          <StyleClass
+            Name="footnote" />
+          <StyleClass
+            Name="o0 ikke toc" />
+          <StyleClass
+            Name="14" />
+          <StyleClass
+            Name="35" />
+          <StyleClass
+            Name="46" />
+          <StyleClass
+            Name="45" />
+          <StyleClass
+            Name="56" />
+          <StyleClass
+            Name="k14" />
+          <StyleClass
+            Name="a0" />
+          <StyleClass
+            Name="13" />
+          <StyleClass
+            Name="TableFootnote" />
+          <StyleClass
+            Name="145" />
+          <StyleClass
+            Name="5" />
+          <StyleClass
+            Name="a4" />
+          <StyleClass
+            Name="47" />
+          <StyleClass
+            Name="o0 new page" />
+          <StyleClass
+            Name="1 udpunktering" />
+          <StyleClass
+            Name="kTableFootnote" />
+          <StyleClass
+            Name="15" />
+          <StyleClass
+            Name="ko2" />
+          <StyleClass
+            Name="o0 uden tal minustoc" />
+          <StyleClass
+            Name="volume 2sp" />
+          <StyleClass
+            Name="chapnummer00 brud 2sp" />
+          <StyleClass
+            Name="k0" />
+          <StyleClass
+            Name="k13" />
+          <StyleClass
+            Name="k17" />
+          <StyleClass
+            Name="0" />
+          <StyleClass
+            Name="k01" />
+          <StyleClass
+            Name="134" />
+          <StyleClass
+            Name="top1ix" />
+          <StyleClass
+            Name="GroupTitlesIX" />
+          <StyleClass
+            Name="Level1IX" />
+          <StyleClass
+            Name="Level2IX" />
+          <StyleClass
+            Name="ActiveIX_xml" />
+          <StyleClass
+            Name="SeparatorsIX" />
+          <StyleClass
+            Name="SortOrderIX" />
+          <StyleClass
+            Name="IgnoreCharsIX" />
+          <StyleClass
+            Name="ActiveIX" />
+          <StyleClass
+            Name="IndexIX" />
+          <StyleClass
+            Name="top1indhold2TOC" />
+          <StyleClass
+            Name="c indholdTOC" />
+          <StyleClass
+            Name="top1indholdTOC" />
+          <StyleClass
+            Name="top1TOC" />
+          <StyleClass
+            Name="top2TOC" />
+          <StyleClass
+            Name="o0 uden talTOC" />
+          <StyleClass
+            Name="top1indhold2" />
+          <StyleClass
+            Name="FootnoteVejledning" />
+          <StyleClass
+            Name="k2rubrik" />
+          <StyleClass
+            Name="k1rubrik" />
+          <StyleClass
+            Name="do0minustoc" />
+          <StyleClass
+            Name="23alfa" />
+          <StyleClass
+            Name="23alfastart" />
+          <StyleClass
+            Name="k12dash" />
+        </Classes>
+      </Style>
+      <Style
+        Name="Character">
+        <Classes>
+          <StyleClass
+            Name="pageno" />
+          <StyleClass
+            Name="M1" />
+          <StyleClass
+            Name="blue" />
+          <StyleClass
+            Name="underline" />
+          <StyleClass
+            Name="symbol" />
+          <StyleClass
+            Name="link" />
+          <StyleClass
+            Name="sub" />
+          <StyleClass
+            Name="Superscript" />
+          <StyleClass
+            Name="bold" />
+          <StyleClass
+            Name="sidetal" />
+        </Classes>
+      </Style>
+      <Style
+        Name="Cross-Reference">
+        <Classes>
+          <StyleClass
+            Name="Lokalindhold - hoved" />
+          <StyleClass
+            Name="Lokalindhold" />
+          <StyleClass
+            Name="Detail - Vejledning" />
+          <StyleClass
+            Name="link" />
+          <StyleClass
+            Name="Refnummer" />
+          <StyleClass
+            Name="Underpunkt" />
+          <StyleClass
+            Name="Parentes" />
+          <StyleClass
+            Name="Footnote" />
+          <StyleClass
+            Name="Tekst (paratext)" />
+          <StyleClass
+            Name="Chapnummer" />
+          <StyleClass
+            Name="chapnummmer" />
+          <StyleClass
+            Name="refnummer til do0" />
+          <StyleClass
+            Name="Tekst + sidetal" />
+        </Classes>
+      </Style>
+      <Style
+        Name="Table">
+        <Classes>
+          <StyleClass
+            Name="UnstructMasterPageMaps" />
+          <StyleClass
+            Name="u6" />
+          <StyleClass
+            Name="0" />
+          <StyleClass
+            Name="u2" />
+          <StyleClass
+            Name="u1" />
+          <StyleClass
+            Name="u4" />
+          <StyleClass
+            Name="0break" />
+          <StyleClass
+            Name="u0" />
+          <StyleClass
+            Name="1" />
+          <StyleClass
+            Name="2" />
+        </Classes>
+      </Style>
+    </Styles>
+  </ImportStyles>
+  <ParagraphStyles>
+    <Map
+      From="Heading1"
+      To="h1.(FrameMaker Style)" />
+    <Map
+      From="Heading2"
+      To="h2.(FrameMaker Style)" />
+    <Map
+      From="Heading3"
+      To="h3.(FrameMaker Style)" />
+    <Map
+      From="Heading4"
+      To="h4.(FrameMaker Style)" />
+    <Map
+      From="Heading5"
+      To="h5.(FrameMaker Style)" />
+    <Map
+      From="Heading6"
+      To="h6.(FrameMaker Style)" />
+    <Map
+      From="do0"
+      To="h1" />
+    <Map
+      From="do0nr"
+      To="h1" />
+    <Map
+      From="o0"
+      To="h1" />
+    <Map
+      From="o1"
+      To="h2" />
+    <Map
+      From="o0 uden tal"
+      To="h2" />
+    <Map
+      From="k56"
+      To="p" />
+    <Map
+      From="k5"
+      To="p" />
+    <Map
+      From="k48"
+      To="p" />
+    <Map
+      From="k45"
+      To="p" />
+    <Map
+      From="k4"
+      To="p" />
+    <Map
+      From="k37"
+      To="p" />
+    <Map
+      From="k34"
+      To="p" />
+    <Map
+      From="k3"
+      To="p" />
+    <Map
+      From="k26"
+      To="p" />
+    <Map
+      From="k25"
+      To="p" />
+    <Map
+      From="k24"
+      To="p" />
+    <Map
+      From="k23"
+      To="p" />
+    <Map
+      From="k2"
+      To="p" />
+    <Map
+      From="k17"
+      To="p" />
+    <Map
+      From="k15"
+      To="p" />
+    <Map
+      From="k14"
+      To="p" />
+    <Map
+      From="k13"
+      To="p" />
+    <Map
+      From="k78"
+      To="p" />
+    <Map
+      From="k7"
+      To="p" />
+    <Map
+      From="k67"
+      To="p" />
+    <Map
+      From="k6"
+      To="p" />
+    <Map
+      From="56"
+      To="p" />
+    <Map
+      From="5"
+      To="p" />
+    <Map
+      From="47"
+      To="p" />
+    <Map
+      From="46"
+      To="p" />
+    <Map
+      From="45"
+      To="p" />
+    <Map
+      From="4"
+      To="p" />
+    <Map
+      From="35"
+      To="p" />
+    <Map
+      From="34"
+      To="p" />
+    <Map
+      From="3"
+      To="p" />
+    <Map
+      From="23"
+      To="p" />
+    <Map
+      From="2"
+      To="p" />
+    <Map
+      From="15"
+      To="p" />
+    <Map
+      From="145"
+      To="p" />
+    <Map
+      From="14"
+      To="h2" />
+    <Map
+      From="134"
+      To="p" />
+    <Map
+      From="13"
+      To="p" />
+    <Map
+      From="12start"
+      To="p.tal_start" />
+    <Map
+      From="12nummer"
+      To="p.tal" />
+    <Map
+      From="12talbegynd"
+      To="p._12start" />
+    <Map
+      From="k12"
+      To="p" />
+    <Map
+      From="k1"
+      To="p" />
+    <Map
+      From="k01"
+      To="p.tal_start" />
+    <Map
+      From="k0"
+      To="p.tal_start" />
+    <Map
+      From="k12nummer"
+      To="p.tal" />
+    <Map
+      From="k12start"
+      To="p.tal_start" />
+    <Map
+      From="ko2"
+      To="p" />
+    <Map
+      From="ko1"
+      To="p" />
+    <Map
+      From="ko0"
+      To="p" />
+    <Map
+      From="k2rubrik"
+      To="p.rubrik" />
+    <Map
+      From="k1rubrik"
+      To="p.rubrik" />
+    <Map
+      From="kfigtekst"
+      To="p" />
+    <Map
+      From="a0"
+      To="p" />
+    <Map
+      From="a4"
+      To="p" />
+    <Map
+      From="0"
+      To="p" />
+    <Map
+      From="01"
+      To="p.tal" />
+    <Map
+      From="1"
+      To="p" />
+    <Map
+      From="1 udpunktering"
+      To="p" />
+    <Map
+      From="12"
+      To="p.tal" />
+    <Map
+      From="anker"
+      To="p" />
+    <Map
+      From="detail"
+      To="p" />
+    <Map
+      From="ankerbred"
+      To="p" />
+    <Map
+      From="Body"
+      To="p" />
+    <Map
+      From="do0minustoc"
+      To="p.rubrik" />
+    <Map
+      From="c"
+      To="p.rubrik" />
+    <Map
+      From="chapnummer00 brud"
+      To="p" />
+    <Map
+      From="chapnummer00 brud 2sp"
+      To="p" />
+    <Map
+      From="chapnummer00 brud fri"
+      To="p" />
+    <Map
+      From="chapnummer10brud"
+      To="p" />
+    <Map
+      From="o0 new page"
+      To="p.rubrik" />
+    <Map
+      From="o2"
+      To="p.rubrik" />
+    <Map
+      From="figtekst"
+      To="p.figtekst" />
+    <Map
+      From="23alfa"
+      To="p.alfa" />
+    <Map
+      From="23alfastart"
+      To="p.alfa_start" />
+    <Map
+      From="k12dash"
+      To="p.dash" />
+    <Map
+      From="o0 ikke toc"
+      To="h2" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="bold"
+      To="span.bold" />
+    <Map
+      From="underline"
+      To="span.underline" />
+    <Map
+      From="M1"
+      To="span.M1" />
+    <Map
+      From="sub"
+      To="span.sub" />
+    <Map
+      From="Superscript"
+      To="span.sup" />
+    <Map
+      From="symbol"
+      To="span.symbol" />
+  </CharacterStyles>
+  <XRefStyles>
+    <Map
+      From="Chapnummer"
+      To="MadCap:xref.paranumonly" />
+    <Map
+      From="chapnummmer"
+      To="MadCap:xref.paranumonly" />
+    <Map
+      From="Refnummer"
+      To="MadCap:xref.paranumonly" />
+    <Map
+      From="Detail - Vejledning"
+      To="MadCap:xref.paranumonly" />
+    <Map
+      From="Parentes"
+      To="MadCap:xref.Point" />
+    <Map
+      From="refnummer til do0"
+      To="MadCap:xref.paranumonly" />
+    <Map
+      From="Tekst (paratext)"
+      To="MadCap:xref.paratext" />
+    <Map
+      From="Underpunkt"
+      To="MadCap:xref.paranumonly" />
+    <Map
+      From="Tekst + sidetal"
+      To="MadCap:xref.paratext" />
+  </XRefStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="01" />
+    <StyleName
+      Name="1" />
+    <StyleName
+      Name="1 udpunktering" />
+    <StyleName
+      Name="12" />
+    <StyleName
+      Name="12nummer" />
+    <StyleName
+      Name="13" />
+    <StyleName
+      Name="14" />
+    <StyleName
+      Name="2" />
+    <StyleName
+      Name="23" />
+    <StyleName
+      Name="4" />
+    <StyleName
+      Name="45" />
+    <StyleName
+      Name="46" />
+    <StyleName
+      Name="47" />
+    <StyleName
+      Name="Body" />
+    <StyleName
+      Name="c" />
+    <StyleName
+      Name="footnote" />
+    <StyleName
+      Name="Footnote" />
+    <StyleName
+      Name="k1" />
+    <StyleName
+      Name="k4" />
+    <StyleName
+      Name="kTableFootnote" />
+    <StyleName
+      Name="o0 ikke toc" />
+    <StyleName
+      Name="o0 new page" />
+    <StyleName
+      Name="o0 uden tal" />
+    <StyleName
+      Name="o1" />
+    <StyleName
+      Name="TableFootnote" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="underline" />
+    <StyleName
+      Name="bold" />
+  </UsedCharacterStyles>
+  <UsedXRefStyles>
+    <StyleName
+      Name="Tekst + sidetal" />
+  </UsedXRefStyles>
+  <UsedTableStyles>
+    <StyleName
+      Name="UnstructMasterPageMaps" />
+    <StyleName
+      Name="0" />
+  </UsedTableStyles>
+  <CharacterStyleDefinitions>
+    <Style
+      Name="underline"
+      style="text-decoration: underline;" />
+    <Style
+      Name="bold"
+      style="font-weight: bold;" />
+  </CharacterStyleDefinitions>
+  <ParagraphStyleDefinitions>
+    <Style
+      Name="1"
+      style="text-align: justify; margin-left: 18mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 2pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="Body"
+      style="" />
+    <Style
+      Name="12"
+      style="text-align: justify; margin-left: 24mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -22px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="footnote"
+      style="text-align: justify; margin-left: 6mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 9pt; letter-spacing: -0.01em; color: #000000; text-indent: -22px; line-height: 11pt; text-decoration: none;" />
+    <Style
+      Name="Footnote"
+      style="text-align: justify; margin-left: 24mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 9pt; letter-spacing: -0.01em; color: #000000; text-indent: -22px; line-height: 11pt; text-decoration: none;" />
+    <Style
+      Name="o1"
+      style="text-align: left; margin-left: 18mm; margin-right: 0mm; margin-top: 12pt; margin-bottom: 0pt; font-family: Arial; font-weight: bold; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; mc-hyphenate: never; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="14"
+      style="text-align: justify; margin-left: 36mm; margin-right: 0mm; margin-top: 6pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -68px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="k4"
+      style="text-align: justify; margin-left: 36mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: italic; font-size: 10pt; letter-spacing: -0.01em; color: #0000ff; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="o0\000020ikke\000020toc"
+      style="text-align: left; margin-left: 18mm; margin-right: 0mm; margin-top: 12pt; margin-bottom: 0pt; font-family: Arial; font-weight: bold; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; mc-hyphenate: never; text-indent: -68px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="4"
+      style="text-align: justify; margin-left: 36mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="46"
+      style="text-align: justify; margin-left: 48mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -45px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="c"
+      style="text-align: center; margin-left: 18mm; margin-right: 0mm; margin-top: 12pt; margin-bottom: 0pt; font-family: Arial; font-weight: bold; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; mc-hyphenate: never; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="01"
+      style="text-align: justify; margin-left: 18mm; margin-right: 0mm; margin-top: 6pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -68px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="k1"
+      style="text-align: justify; margin-left: 18mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 2pt; font-family: Arial; font-weight: normal; font-style: italic; font-size: 10pt; letter-spacing: -0.01em; color: #0000ff; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="12nummer"
+      style="text-align: justify; margin-left: 24mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; mc-auto-number-format: 'T:({n+}) '; mc-auto-number-position: outside-head; mc-auto-number-offset: 22, 67717px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="45"
+      style="text-align: justify; margin-left: 42mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -22px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="13"
+      style="text-align: justify; margin-left: 30mm; margin-right: 0mm; margin-top: 6pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -45px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="47"
+      style="text-align: justify; margin-left: 54mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -68px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="o0\000020uden\000020tal"
+      style="text-align: left; margin-left: 18mm; margin-right: 0mm; margin-top: 12pt; margin-bottom: 0pt; font-family: Arial; font-weight: bold; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; mc-hyphenate: never; text-indent: -68px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="o0\000020new\000020page"
+      style="text-align: left; margin-left: 18mm; margin-right: 0mm; margin-top: 14pt; margin-bottom: 0pt; font-family: Arial; font-weight: bold; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; mc-hyphenate: never; text-indent: -68px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="1\000020udpunktering"
+      style="text-align: justify; margin-left: 42mm; margin-right: 0mm; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -90px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="TableFootnote"
+      style="text-align: justify; margin-left: 5mm; margin-right: 6.35001mm; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -18px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="kTableFootnote"
+      style="text-align: justify; margin-left: 5mm; margin-right: 6.35001mm; margin-top: 0pt; margin-bottom: 0pt; font-family: Arial; font-weight: normal; font-style: italic; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -18px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="2"
+      style="text-align: justify; margin-left: 24mm; margin-right: 0mm; margin-top: 1pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: 0px; line-height: 12pt; text-decoration: none;" />
+    <Style
+      Name="23"
+      style="text-align: justify; margin-left: 30mm; margin-right: 0mm; margin-top: 1pt; margin-bottom: 1pt; font-family: Arial; font-weight: normal; font-style: normal; font-size: 10pt; letter-spacing: -0.01em; color: #000000; text-indent: -22px; line-height: 12pt; text-decoration: none;" />
+  </ParagraphStyleDefinitions>
+  <XRefStyleDefinitions>
+    <Style
+      Name="Tekst\000020\00002B\000020sidetal"
+      style="mc-format: '{paratext} side {page}';" />
+  </XRefStyleDefinitions>
+  <TableStyleDefinitions>
+    <Style
+      Name="UnstructMasterPageMaps"
+      style="" />
+  </TableStyleDefinitions>
+</FrameMakerImport>

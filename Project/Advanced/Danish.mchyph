@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HyphenationRules>
+    <Hyphenation>
+        <Word>typegodkendelsen</Word>
+        <Rule>type-god-ken-del-sen</Rule>
+    </Hyphenation>
+    <Hyphenation>
+        <Word>totalvægtnedsættelse</Word>
+        <Rule>total-vægt-ned-sæt-telse</Rule>
+    </Hyphenation>
+    <Hyphenation>
+        <Word>detailforskrifter</Word>
+        <Rule>detail-for-skrifter</Rule>
+    </Hyphenation>
+    <Hyphenation>
+        <Word>sammenkobling</Word>
+        <Rule>sammen-kobling</Rule>
+    </Hyphenation>
+    <Hyphenation>
+        <Word>fareseddel</Word>
+        <Rule>fare-seddel</Rule>
+    </Hyphenation>
+    <Hyphenation>
+        <Word>overensstemmelsesattest</Word>
+        <Rule>over-ens-stem-mel-ses-attest;overensstem-melsesattest;overensstemmelse-sattest;overensstemmelses-attest;overensstemmelsesat-test</Rule>
+    </Hyphenation>
+</HyphenationRules>
